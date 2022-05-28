@@ -1,0 +1,12 @@
+{
+  "include": ["../node_modules/cypress", "**/*.ts", "../src/**/*.{ts,tsx}"],
+  "compilerOptions": {
+    "types": ["cypress"],
+    "rootDir": "../",
+    "baseUrl": "../src",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "lib": ["es5", "dom"],
+    "noFallthroughCasesInSwitch": true
+  }
+}
